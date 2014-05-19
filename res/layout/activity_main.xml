@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttone1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:text="Button1" />
+
+    <Button
+        android:id="@+id/buttone2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttone1"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:text="Button2" />
+
+    <Button
+        android:id="@+id/buttone3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttone1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/buttone2"
+        android:padding="5dp"
+        android:text="Button3" />
+
+    <Button
+        android:id="@+id/buttone4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttone2"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        android:text="Button4" />
+
+    <Button
+        android:id="@+id/buttone5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttone4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:text="Button5" />
+
+    <Button
+        android:id="@+id/buttone6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Button6" />
+
+    <Button
+        android:id="@+id/buttone7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:text="Button7" />
+
+</RelativeLayout>
